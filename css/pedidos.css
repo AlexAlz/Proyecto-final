@@ -1,0 +1,104 @@
+  #header {
+      margin-left: -8px;
+      margin-top: -8px;
+      margin-bottom: 17px;
+  }
+  
+  body {
+      background: #eaeaea;
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url(../images/fondocliente.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow-x: hidden;
+  }
+  
+  .backButton {
+      text-decoration: none;
+      border-radius: 8px;
+      text-align: end;
+      padding: 8px;
+      background: darkgrey;
+      color: white;
+      font-size: 30 px;
+      margin-inline-start: 10px;
+  }
+  
+  .backButton:hover {
+      background: rgb(99, 99, 99);
+      color: white;
+  }
+  
+  #alta {
+      float: right;
+      margin-right: 10px;
+      margin-top: -8px;
+      background: #4CAF50;
+  }
+  
+  #alta:hover {
+      background: rgb(49, 114, 51);
+  }
+  
+  .profile-pic {
+      width: 100%;
+      max-width: 100px;
+  }
+  
+  table {
+      border: solid 5px black;
+      background: white;
+      border-radius: 5px;
+  }
+  
+  td {
+      border-radius: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: solid 1px gray;
+  }
+  
+  .row {
+      height: 70px;
+  }
+  
+  #alta-back {
+      width: 100%;
+      margin-right: 50px;
+  }
+  
+  table {
+      margin: auto;
+  }
+  
+  .button {
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 6px;
+      padding: 2px;
+      padding-left: 6px;
+      padding-right: 6px;
+      background: darkgrey;
+      color: white;
+  }
+  
+  .button:hover {
+      background: rgb(99, 99, 99);
+      color: white;
+  }
+  
+  .eliminarButton {
+      background: #e00909;
+  }
+  
+  .eliminarButton:hover {
+      background: #910707;
+  }
+  
+  .editarButton {
+      margin-bottom: 3px;
+  }
+  
+  .contenedor {
+      height: 70%;
+  }
