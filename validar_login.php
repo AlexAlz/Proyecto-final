@@ -13,7 +13,6 @@ $sql = "SELECT * FROM administradores WHERE correo = '" . $correo . "' AND pass 
 $res = mysqli_query($con, $sql);
 $num = mysqli_num_rows($res);
 
-/*?> <script>console.log("<?php echo $num; ?> ");</script> <?php*/
 
 if ($num != 0) {
     $id = mysqli_result($res, 0, 'id');
