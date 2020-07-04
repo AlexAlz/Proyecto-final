@@ -1,10 +1,7 @@
 {
     "name": "rimorsoft/proyecto",
-    "description": "Proyecto final",
+    "description": "proyecto final",
     "type": "project",
-    "require-dev": {
-        "illuminate/database": "^8.0@dev"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -12,6 +9,6 @@
             "email": "daagblaze98@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }
