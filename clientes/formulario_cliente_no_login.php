@@ -75,7 +75,7 @@ error_reporting(0);
                     },
                     success: function() {
                         console.log("Success POST");
-                        window.location = "../login.php";
+                        window.location = "../index.php";
                     }
                 })
             } else {

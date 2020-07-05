@@ -4,7 +4,7 @@ require "../conecta.php";
 
 //error_reporting(0);
 if ($_SESSION["id"] > 0) { } else {
-    header("Location: ../login.php");
+    header("Location: ../index.php");
 }
 
 function mysqli_result($res, $row, $field = 0)

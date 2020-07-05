@@ -3,7 +3,7 @@ require "carrito-count.php";
 
 error_reporting(0);
 if ($_SESSION["id"] > 0) { } else {
-    header("Location: login.php");
+    header("Location: index.php");
 }
 ?>
 

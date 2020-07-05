@@ -5,7 +5,7 @@ error_reporting(0);
 if ($_SESSION["id"] > 0) {
     //echo $_SESSION["id"];
 } else {
-    header("Location: ../login.php");
+    header("Location: ../index.php");
 }
 ?>
 
