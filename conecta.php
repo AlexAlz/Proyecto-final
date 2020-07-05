@@ -15,7 +15,7 @@ function conecta(){
     }
     return $con;
 }
-/*define ("HOST","db4free.net");
+define ("HOST","db4free.net");
 define ("BD","proyecto_final");
 define ("USER_BD","alejandro_alz");
 define ("PASS_BD","12345678");
@@ -31,5 +31,5 @@ function conecta(){
         exit();
     }
     return $con;
-}*/
+}
 ?>
